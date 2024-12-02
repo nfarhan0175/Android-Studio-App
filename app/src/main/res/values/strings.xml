@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">E Learning</string>
+    <string-array name="course">
+        <item>Physics\n\nBatch 5\n2000 tk </item>
+        <item>Chemistry\n\nBatch 5\n2000 tk </item>
+        <item>Math\n\nBatch 5\n2000 tk </item>
+        <item>Biology\n\nBatch 5\n2000 tk </item>
+        <item>English\n\nBatch 5\n2000 tk </item>
+        <item>ICT\n\nBatch 5\n2000 tk </item>
+    </string-array>
+</resources>

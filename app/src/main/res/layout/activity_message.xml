@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".message">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/help"
+        android:text="You Can Call or Text For Help"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="call" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub"
+        android:layout_margin="20dp"
+        android:hint="subject"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sms1"
+        android:layout_margin="20dp"
+        android:hint="enter you message"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="email" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="sms"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="back" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".physics">
+
+    <ImageView
+        android:id="@+id/courseImage"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+
+        android:src="@drawable/physics"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/courseTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Physics Explorer: An Interactive Learning Experience"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/courseImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/courseDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="hysics Explorer is an innovative e-learning platform designed to enhance the understanding and appreciation of physics concepts through interactive and engaging content. This project aims to provide students with a comprehensive resource for learning physics, from classical mechanics to modern theories.
+Key features include:will have access to dynamic lessons that incorporate animations, simulations, and interactive quizzes to solidify their understanding of complex concepts"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/courseTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/enrollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll Now"
+        app:layout_constraintTop_toBottomOf="@id/courseDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        android:background="@color/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

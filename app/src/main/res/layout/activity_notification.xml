@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".notification"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+
+        android:background="@drawable/border">
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Class 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <!-- Notification Body -->
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your new module unlocked"
+            android:textSize="30sp"
+            android:paddingLeft="10dp"
+            android:textColor="#333333"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            android:id="@+id/notification_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Just now"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginTop="4dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
