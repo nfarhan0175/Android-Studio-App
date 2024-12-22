@@ -4,10 +4,10 @@
     android:layout_height="wrap_content"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:id="@+id/list">
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="fill_parent"
         android:layout_height="200dp"
         android:id="@+id/img"
         android:src="@drawable/baseline_account_circle_24"/>
@@ -19,6 +19,36 @@
         android:layout_gravity="center_vertical"
         android:paddingTop="10dp"
         android:textSize="30dp"
+        android:textColor="@color/black"
         android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/batch"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:text="batch 5"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+        <View
+            android:layout_width="80dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="5000"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+    </LinearLayout>
 
 </LinearLayout>

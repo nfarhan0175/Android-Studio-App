@@ -1,11 +1,57 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">E Learning</string>
+    <string name="phy_detail">Physics Explorer is an innovative e-learning platform designed to enhance the understanding and appreciation of physics concepts through interactive and engaging content. This project aims to provide students with a comprehensive resource for learning physics, from classical mechanics to modern theories.
+Key features include:will have access to dynamic lessons that incorporate animations, simulations, and interactive quizzes to solidify their understanding of complex concepts</string>
+    <string name="webpy_detail">Web Development with Python involves building dynamic websites and web applications using Python as the backend programming language. Popular frameworks like Django and Flask provide powerful tools for creating robust, scalable, and secure web solutions. This course covers the fundamentals of web
+development, including handling databases, creating RESTful APIs, and deploying applications to the web. Python’s simplicity and readability make it an ideal choice for both beginners and experienced developers looking to build web-based projects efficiently.</string>
+
     <string-array name="course">
-        <item>Physics\n\nBatch 5\n2000 tk </item>
-        <item>Chemistry\n\nBatch 5\n2000 tk </item>
-        <item>Math\n\nBatch 5\n2000 tk </item>
-        <item>Biology\n\nBatch 5\n2000 tk </item>
-        <item>English\n\nBatch 5\n2000 tk </item>
-        <item>ICT\n\nBatch 5\n2000 tk </item>
+        <item>Web development with Python</item>
+        <item>Web development with JavaScript</item>
+        <item>App development with Flutter</item>
+        <item>Programming with Python</item>
+        <item>Physics</item>
+        <item>English</item>
+        <item>Mathematics</item>
+        <item>Business Strategy</item>
     </string-array>
+    <string-array name="batch">
+        <item>Batch 2</item>
+        <item>Batch 2</item>
+        <item>Batch 2</item>
+        <item>Batch 2</item>
+        <item>Batch 4</item>
+        <item>Batch 5</item>
+        <item>Batch 5</item>
+        <item>Batch 3</item>
+    </string-array>
+    <string-array name="price">
+        <item>8000 tk</item>
+        <item>8000 tk</item>
+        <item>8000 tk </item>
+        <item>8000 tk </item>
+        <item>2000 tk </item>
+        <item>1500 tk </item>
+        <item>2000 tk </item>
+        <item>4000 tk </item>
+    </string-array>
+
+    <string-array name="WebCourse">
+        <item>Web development with Python</item>
+        <item>Web development with JavaScript</item>
+        <item>Web development with Php</item>
+        <item>Wordpress theme development</item>
+        <item>Mastering Vue.js</item>
+        <item>Art of Tailwind CSS</item>
+    </string-array>
+    <string-array name="batchWeb">
+        <item>100 seats left</item>
+        <item>50 seats left</item>
+        <item>30 seats left</item>
+        <item>New batch will start</item>
+        <item>New batch will start</item>
+        <item>New batch will start</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

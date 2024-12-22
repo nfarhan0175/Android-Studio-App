@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "72880198467",
+    "firebase_url": "https://fir-200ec-default-rtdb.firebaseio.com",
+    "project_id": "fir-200ec",
+    "storage_bucket": "fir-200ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72880198467:android:9761593e26686e9a3c95f6",
+        "android_client_info": {
+          "package_name": "com.example.elearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPJ89I4LAj2it4reZQhPqr1Zs9CBafEeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72880198467:android:5832ee348c37c4103c95f6",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPJ89I4LAj2it4reZQhPqr1Zs9CBafEeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
